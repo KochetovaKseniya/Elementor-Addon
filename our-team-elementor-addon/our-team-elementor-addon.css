@@ -1,0 +1,36 @@
+/* Our Team */
+.team__list .swiper-container {
+    overflow: hidden;
+}
+.team__list .swiper-button-prev {
+    left: -50px;
+}
+.team__list .swiper-button-next {
+    right: -50px;
+}
+@media (max-width: 1024px) {
+    .team__list .swiper-button-prev {
+        left: 0;
+    }
+    .team__list .swiper-button-next {
+        right: 0;
+    }
+}
+.team__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.team__item--img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.team__item--img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
